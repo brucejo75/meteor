@@ -26,5 +26,5 @@ Package.onUse(function (api) {
   api.mainModule('autoupdate_client.js', 'client');
   api.mainModule('autoupdate_cordova.js', 'web.cordova');
 
-  api.export('Autoupdate');
+  api.export(['Autoupdate','AutoupdateHookOtherClient']);
 });
